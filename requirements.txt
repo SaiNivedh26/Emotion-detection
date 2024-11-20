@@ -1,0 +1,8 @@
+opencv-python-headless
+tf-keras
+streamlit
+ultralytics
+pillow
+math
+time
+numpy
