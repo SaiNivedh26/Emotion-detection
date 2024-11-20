@@ -3,6 +3,4 @@ tf-keras
 streamlit
 ultralytics
 pillow
-math
-time
 numpy
