@@ -8,11 +8,11 @@ import time
 import math
 
 # Load the trained emotion detection model
-emotion_model = tf.keras.models.load_model('emotion_model.h5')
+emotion_model = tf.keras.models.load_model('/content/emotion_model.h5')
 emotion_classes = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
 
 # Load YOLO model for object detection
-object_detector = YOLO("yolov8n.pt")
+object_detector = YOLO("/content/yolov8n.pt")
 
 # Define a function to predict emotion from a face
 def predict_emotion(face_img):
